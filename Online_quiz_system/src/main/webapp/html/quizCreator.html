@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Creator</title>
+<link rel="stylesheet" href="../css/quizCreator.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Create a Quiz</h2>
+
+    <form action="../jsp/quizCreator.jsp" id="quizForm" method="post">	
+        <div class="question-group">
+            <label for="quizName">Quiz Name:</label>
+        	<input type="text" id="quizName" name="quizName" required>
+        	
+            <label for="question1">Question:</label>
+            <input type="text" id="question1" name="question1" required>
+
+            <label for="option1-1">Option 1:</label>
+            <input type="text" id="option1-1" name="option1-1" required>
+
+            <label for="option1-2">Option 2:</label>
+            <input type="text" id="option1-2" name="option1-2" required>
+
+            <label for="option1-3">Option 3:</label>
+            <input type="text" id="option1-3" name="option1-3" required>
+
+            <label for="option1-4">Option 4:</label>
+            <input type="text" id="option1-4" name="option1-4" required>
+
+            <label for="correctAnswer1">Correct Answer:</label>
+            <input type="number" id="correctAnswer1" name="correctAnswer1" min="1" max="4" required>
+
+            <!-- <button type="button" class="remove-question">Remove</button> -->
+        </div>
+
+        <button type="button" class="add-question btn">Add Question</button>
+        <input type="submit" class="btn submit" value="submit">
+    </form>
+    <a href="dashboard.html" class="back-button btn">Back</a>
+</div>
+<script src="../js/quizCreator.js"></script>
+</body>
+</html>
