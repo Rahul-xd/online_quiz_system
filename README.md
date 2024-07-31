@@ -63,7 +63,7 @@ The Online Quiz System is a Java-based web application that allows users to crea
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
-- **[HikariCP](https://github.com/brettwooldridge/HikariCP)**: Connection Pool
-- **[jBCrypt](https://www.mindrot.org/projects/jBCrypt/)**: Password encryption
+- **[HikariCP]**: Connection Pool
+- **[jBCrypt]**: Password encryption
 - **[Logback](http://logback.qos.ch/)**: Logging framework
 - **[JSTL](https://jstl.java.net/)**: JavaServer Pages Standard Tag Library
