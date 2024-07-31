@@ -13,9 +13,9 @@ public class DatabaseUtil {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             HikariConfig config = new HikariConfig();
-            config.setJdbcUrl("jdbc:mysql://localhost:3306/quiz_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC");
-            config.setUsername("root");
-            config.setPassword("Rahul");
+            config.setJdbcUrl("DB_URL");
+            config.setUsername("DB_USER");
+            config.setPassword("DB_PASSWORD");
             config.setMaximumPoolSize(10);
             config.setMinimumIdle(1);
             config.setIdleTimeout(600000); 
